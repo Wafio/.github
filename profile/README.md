@@ -70,7 +70,7 @@ git clone https://github.com/wafio/uddin-lang-rs
 You need only the ones you work on, with these pairs:
 
 - wafio-agent-waf builds with `../uddin-lang-rs`.
-- wafio-agent-host uses the `shared` module of `../wafio-cp-backend`.
+- wafio-agent-host fetches the published `shared` module of wafio-cp-backend (`shared/v0.1.0`). You need `../wafio-cp-backend` only to change `shared`.
 - The dashboard's fixture check reads `../wafio-cp-backend/test/frontend-fixtures`.
 
 Each repository has one gate, `scripts/ci-local.sh`, which runs on Linux, and a `CONTRIBUTING.md` with its rules.
