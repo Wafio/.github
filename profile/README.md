@@ -41,15 +41,15 @@ Two parts are not published:
 
 ## Best practices
 
-Each published repository holds the OpenSSF Best Practices badge at the passing level. The badge links to the answers and the evidence.
+Each published repository holds the OpenSSF Best Practices badge at the passing level, and OpenSSF Scorecard scores it every week. Each badge links to the answers or to the checks behind the score.
 
-| Repository | Badge |
-|---|---|
-| wafio-cp-backend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16869/badge)](https://www.bestpractices.dev/projects/16869) |
-| wafio-cp-frontend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16871/badge)](https://www.bestpractices.dev/projects/16871) |
-| wafio-agent-waf | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16868/badge)](https://www.bestpractices.dev/projects/16868) |
-| wafio-agent-host | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16870/badge)](https://www.bestpractices.dev/projects/16870) |
-| uddin-lang-rs | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16872/badge)](https://www.bestpractices.dev/projects/16872) |
+| Repository | Best practices | Scorecard |
+|---|---|---|
+| wafio-cp-backend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16869/badge)](https://www.bestpractices.dev/projects/16869) | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Wafio/wafio-cp-backend/badge)](https://scorecard.dev/viewer/?uri=github.com/Wafio/wafio-cp-backend) |
+| wafio-cp-frontend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16871/badge)](https://www.bestpractices.dev/projects/16871) | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Wafio/wafio-cp-frontend/badge)](https://scorecard.dev/viewer/?uri=github.com/Wafio/wafio-cp-frontend) |
+| wafio-agent-waf | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16868/badge)](https://www.bestpractices.dev/projects/16868) | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Wafio/wafio-agent-waf/badge)](https://scorecard.dev/viewer/?uri=github.com/Wafio/wafio-agent-waf) |
+| wafio-agent-host | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16870/badge)](https://www.bestpractices.dev/projects/16870) | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Wafio/wafio-agent-host/badge)](https://scorecard.dev/viewer/?uri=github.com/Wafio/wafio-agent-host) |
+| uddin-lang-rs | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16872/badge)](https://www.bestpractices.dev/projects/16872) | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Wafio/uddin-lang-rs/badge)](https://scorecard.dev/viewer/?uri=github.com/Wafio/uddin-lang-rs) |
 
 ## Where a report or a change goes
 
