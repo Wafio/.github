@@ -30,8 +30,7 @@ The semantic detection engine and the installers are not published. The README o
 
 <a href="https://zetguard.com"><img src="https://raw.githubusercontent.com/Wafio/wafio/main/docs/sponsors/zetguard.png" alt="ZetGuard" height="36"></a>
 
-[ZetGuard](https://zetguard.com) funds the development of WAFio. ZetGuard's server and application protection is
-built on the WAFio code.
+[ZetGuard](https://zetguard.com) funds the development of WAFio.
 
 To sponsor WAFio, write to <hello@wafio.cloud>.
 
