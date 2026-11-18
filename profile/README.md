@@ -24,13 +24,13 @@ proxy in front of your application. The host agent filters packets and watches p
 
 ## Repositories
 
-| Repository | What it is | Language | Licence | Best practices |
-|---|---|---|---|---|
-| [wafio-cp-backend](https://github.com/wafio/wafio-cp-backend) | Control plane: HTTP API, agent server, database migrations, and the `shared` module both agents use | Go | GPL-3.0-only | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16869/badge)](https://www.bestpractices.dev/projects/16869) |
-| [wafio-cp-frontend](https://github.com/wafio/wafio-cp-frontend) | Dashboard, a static app the control plane serves | SvelteKit, TypeScript | GPL-3.0-only | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16871/badge)](https://www.bestpractices.dev/projects/16871) |
-| [wafio-agent-waf](https://github.com/wafio/wafio-agent-waf) | WAF agent: proxy, limits, bot checks, custom and script rules, the link to the control plane | Rust | GPL-3.0-only | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16868/badge)](https://www.bestpractices.dev/projects/16868) |
-| [wafio-agent-host](https://github.com/wafio/wafio-agent-host) | Host agent: eBPF firewall and runtime security tracing | Go, BPF C | GPL-3.0-only, BPF programs GPL-2.0 | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16870/badge)](https://www.bestpractices.dev/projects/16870) |
-| [uddin-lang-rs](https://github.com/wafio/uddin-lang-rs) | Interpreter of the uddin script language, which runs script rules inside the WAF agent | Rust | MIT | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16872/badge)](https://www.bestpractices.dev/projects/16872) |
+| Repository | What it is | Language | Licence |
+|---|---|---|---|
+| [wafio-cp-backend](https://github.com/wafio/wafio-cp-backend) | Control plane: HTTP API, agent server, database migrations, and the `shared` module both agents use | Go | GPL-3.0-only |
+| [wafio-cp-frontend](https://github.com/wafio/wafio-cp-frontend) | Dashboard, a static app the control plane serves | SvelteKit, TypeScript | GPL-3.0-only |
+| [wafio-agent-waf](https://github.com/wafio/wafio-agent-waf) | WAF agent: proxy, limits, bot checks, custom and script rules, the link to the control plane | Rust | GPL-3.0-only |
+| [wafio-agent-host](https://github.com/wafio/wafio-agent-host) | Host agent: eBPF firewall and runtime security tracing | Go, BPF C | GPL-3.0-only, BPF programs GPL-2.0 |
+| [uddin-lang-rs](https://github.com/wafio/uddin-lang-rs) | Interpreter of the uddin script language, which runs script rules inside the WAF agent | Rust | MIT |
 
 Two parts are not published:
 
@@ -38,6 +38,18 @@ Two parts are not published:
   one interface (`crates/engine-api`). An agent built from wafio-agent-waf alone proxies and enforces every other
   rule, and its engine finds nothing. The official `wafio-waf-agent` build includes the engine.
 - **The installers and the release scripts.**
+
+## Best practices
+
+Each published repository holds the OpenSSF Best Practices badge at the passing level. The badge links to the answers and the evidence.
+
+| Repository | Badge |
+|---|---|
+| wafio-cp-backend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16869/badge)](https://www.bestpractices.dev/projects/16869) |
+| wafio-cp-frontend | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16871/badge)](https://www.bestpractices.dev/projects/16871) |
+| wafio-agent-waf | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16868/badge)](https://www.bestpractices.dev/projects/16868) |
+| wafio-agent-host | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16870/badge)](https://www.bestpractices.dev/projects/16870) |
+| uddin-lang-rs | [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16872/badge)](https://www.bestpractices.dev/projects/16872) |
 
 ## Where a report or a change goes
 
