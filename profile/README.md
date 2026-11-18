@@ -3,8 +3,9 @@
 Wafio is a web application firewall with a host firewall and runtime security for Linux servers. You run a control
 plane, and agents on the servers you protect report to it.
 
-To install and use Wafio, start at <https://wafio.cloud/get-started>. The repositories below are for reading the code
-and changing it.
+To install and use Wafio, start at <https://wafio.cloud/get-started>. The project's front page, its releases and its
+issue tracker for the whole product are in [Wafio/wafio](https://github.com/Wafio/wafio). The repositories below are
+for reading the code and changing it.
 
 ## How the parts fit
 
@@ -26,6 +27,7 @@ proxy in front of your application. The host agent filters packets and watches p
 
 | Repository | What it is | Language | Licence |
 |---|---|---|---|
+| [wafio](https://github.com/wafio/wafio) | Front page of the project: install, releases, issues about the whole product, security and support | Markdown | GPL-3.0-only |
 | [wafio-cp-backend](https://github.com/wafio/wafio-cp-backend) | Control plane: HTTP API, agent server, database migrations, and the `shared` module both agents use | Go | GPL-3.0-only |
 | [wafio-cp-frontend](https://github.com/wafio/wafio-cp-frontend) | Dashboard, a static app the control plane serves | SvelteKit, TypeScript | GPL-3.0-only |
 | [wafio-agent-waf](https://github.com/wafio/wafio-agent-waf) | WAF agent: proxy, limits, bot checks, custom and script rules, the link to the control plane | Rust | GPL-3.0-only |
@@ -61,7 +63,7 @@ Each published repository holds the OpenSSF Best Practices badge at the passing 
 | The script language or a builtin | uddin-lang-rs |
 | The firewall, blocked or allowed packets, process tracing | wafio-agent-host |
 | An attack that was not detected, or a normal request that was blocked | wafio-agent-waf, as a private security report for a missed attack |
-| Installing or upgrading | wafio-cp-backend, until the installers have a public place |
+| Installing or upgrading, or you do not know which part | wafio |
 
 A security problem never goes into a public issue. Each repository has a `SECURITY.md` that says how to report it
 privately.
