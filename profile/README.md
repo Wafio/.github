@@ -43,6 +43,8 @@ Two parts are not published:
 
 ## Sponsors
 
+<a href="https://zetguard.com"><img src="https://raw.githubusercontent.com/Wafio/wafio/main/docs/sponsors/zetguard.png" alt="ZetGuard" height="36"></a>
+
 [ZetGuard](https://zetguard.com) funds the development of WAFio. ZetGuard's server and application protection is
 built on the WAFio code.
 
