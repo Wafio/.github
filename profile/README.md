@@ -41,6 +41,11 @@ Two parts are not published:
   rule, and its engine finds nothing. The official `wafio-waf-agent` build includes the engine.
 - **The installers and the release scripts.**
 
+## Sponsors
+
+[ZetGuard](https://zetguard.com) funds the development of WAFio. ZetGuard's server and application protection is
+built on the WAFio code.
+
 ## Best practices
 
 Each published repository holds the OpenSSF Best Practices badge at the passing level, and OpenSSF Scorecard scores it every week. Each badge links to the answers or to the checks behind the score.
